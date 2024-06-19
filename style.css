@@ -1,0 +1,21 @@
+*{
+    list-style: none;
+}
+
+.buttons {
+    padding: 10px 30px;
+    background: #FE8C45;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 90px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.purple {
+    color: #8A47F6;
+}

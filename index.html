@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Assignment 1</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- FontAwesome Icon -->
+    <script src="https://kit.fontawesome.com/98dfd6ea50.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CDN Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Nav Section  -->
+    <nav class="px-5 py-lg-3 py-md-2 d-flex justify-content-between shadow-sm position-fixed vw-100 z-3 bg-white">
+
+        <img src="image/logoKiekeFotografie.png" alt="Site Logo">
+        
+        <div class="d-flex align-items-center gap-lg-5 gap-md-3">
+
+            <div class="d-md-none d-lg-block">
+                <ul class="gap-4 fs-5 mb-0 d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#prices">Prices</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#question">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+        
+            <button class="buttons">Get Started</button>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <!-- Home Section  -->
+     <section id="home" class="d-flex px-5 align-items-center justify-content-between align-items-md-center flex-md-column flex-lg-row mb-md-5">
+        <div class="col-lg-6 col-md-12 ps-lg-5 py-md-5 mt-md-4 d-md-flex flex-md-column align-items-md-center align-items-lg-start">
+            <h1 class="fw-bold text-md-center text-lg-start display-1 col-lg-8">
+                CAPTURING MOMENTS
+                <span class="purple"> IN </span>
+                TIME
+            </h1>
+
+            <p class="fs-4 my-5">A Glimpse into the Past, a Snapshot of the Present.</p>
+
+            <button class="buttons">Get Started</button>
+        </div>
+
+        <div class="col-lg-5 col-md-8 mt-lg-5 pt-lg-5 pe-lg-5 d-md-flex justify-content-md-center">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/Rectangle 32.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/Rectangle 32.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/Rectangle 32.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+
+
+                <div class="d-flex justify-content-center gap-2 mt-4 position-static">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active p-2 rounded-5 border-0 bg-info"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="p-2 rounded-5 border-0 bg-body-secondary"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="p-2 rounded-5 border-0 bg-body-secondary"
+                        aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+
+
+
+
+
+
+    <!-- About Section  -->
+     <section id="about" class="p-lg-5 py-md-5 d-flex justify-content-center" style="background:rgba(138, 71, 246, .1);">
+        <div class="d-flex justify-content-between w-75 gap-5 flex-lg-row flex-md-column-reverse">
+            <div class="col-5 d-flex gap-4 me-4">
+                <div>
+                    <img src="../image/Rectangle 5.png">
+                </div>
+                <div>
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <img src="../image/Rectangle 6.png">
+                        </div>
+                        <div class="col-12">
+                            <img src="../image/Rectangle 7.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="d-flex flex-column justify-content-between align-items-lg-start align-items-md-center gap-md-3 p-5">
+                <p class="fs-4">About Us</p>
+                <h2 class="fw-bolder" style="font-size:48px;">We Are Very <span class="purple"> Skilled </span> In <span
+                        class="purple">Photography</span></h2>
+                <p>Hi, I'm Angelique and photography is my passion! My father passed on the “photographer virus” to me. From
+                    analogue to
+                    digital. I have taken a number of courses and workshops and, above all, practiced a lot! My children are now
+                    used to
+                    modeling. Perhaps that is where the penchant for taking photos of children comes from. The pure appearance and
+                    enthusiasm of children. It's always fun!</p>
+                <p>“Photography is the art of frozen time… the ability to store emotions and feelings within a frame.”</p>
+                <button class="buttons">See Our Portfolio</button>
+            </div>
+        </div>
+     </section>
+
+
+
+
+
+
+
+     <!-- Portfolio Section -->
+      <section id="portfolio" class="d-flex flex-column align-items-center gap-5 p-5">
+
+        <h2 class="fw-bolder text-center" style="font-size:48px;">Our <span class="purple">Portfolio</span></h2>
+        <div class="bg-body-tertiary col-lg-9 col-md-12 p-lg-3 p-md-1 pb-0 px-lg-5 px-md-3 rounded-2 shadow-sm"> 
+            <ul class="d-flex justify-content-between mb-0 py-md-2 fs-5 ">
+                <li>All</li>
+                <li class="purple text-decoration-underline">Childrens</li>
+                <li>Potraits</li>
+                <li>Family</li>
+                <li>Other Photography</li>
+            </ul>
+        </div>
+
+        <div class="d-flex justify-content-lg-center align-items-center gap-lg-5">
+            <div class="">
+                <img src="image/Rectangle 11.png">
+            </div>
+            <div class="d-flex flex-column gap-lg-5 gap-md-3">
+                <div class="d-flex gap-lg-5 flex-lg-row">
+                    <img src="image/Rectangle 12.png">
+                    <img src="image/Rectangle 13.png">
+                </div>
+                <div class="d-flex gap-lg-5 gap-md-3 flex-lg-row">
+                    <img src="image/Rectangle 14.png">
+                    <img src="image/Rectangle 15.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center align-items-center gap-5">
+            <div class="d-flex flex-column gap-5">
+                <div class="d-flex gap-5">
+                    <img src="image/Rectangle 17.png">
+                    <img src="image/Rectangle 16.png">
+                </div>
+                <div class="d-flex gap-5">
+                    <img src="image/Rectangle 19.png">
+                    <img src="image/Rectangle 20.png">
+                </div>
+            </div>
+            <div>
+                <img src="image/Rectangle 18.png">
+            </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+    <!-- Prices Section -->
+     <section id="prices" class="p-lg-5 px-md-4 mt-lg-5 mt-md-3">
+        <h2 class="fw-bolder text-center" style="font-size:48px;">Prices</h2>
+
+        <div class="d-flex justify-content-evenly flex-lg-row flex-md-column gap-md-4 align-items-md-center mt-lg-5 mt-md-3">
+            <div class="bg-white shadow-lg rounded-3 p-4 d-flex flex-column align-items-center justify-content-between text-center" style="height:350px;width:450px;">
+                <h4>Children's photography/ family/pregnancy/loveshoot</h4>
+                <p>The price for this is €50.00 (incl. VAT) and takes approximately one hour.For that you get 10/15 edited digital files in
+                large format.</p>
+                <h3 class="fw-bold" style="font-size: xx-large;">€50.00</h3>
+                <button class="buttons">Get Purchase</button>
+            </div>
+
+            <div class="bg-black shadow-lg rounded-3 p-4 d-flex flex-column align-items-center justify-content-between text-center text-white" style="height:350px;width:450px;">
+                <h4>Lifestyle Photography</h4>
+                <p>Lifestyle photography takes place at your home in a relaxed setting. The price for this depends on how long we take.
+                Inquire about the possibilities.</p>
+                <h3 class="fw-bold" style="font-size: xx-large;">€50.00</h3>
+                <button class="buttons bg-white text-dark">Get Purchase</button>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-3 p-4 d-flex flex-column align-items-center justify-content-between text-center" style="height:350px;width:450px;">
+                <h4>Potrait Photography</h4>
+                <p>Portrait photography and girlfriend shoots are also possible.</p>
+                <h3 class="fw-bold" style="font-size: xx-large;">€50.00</h3>
+                <button class="buttons">Get Purchase</button>
+            </div>
+        </div>
+     </section>
+
+
+
+
+
+
+
+
+
+    <!-- Testimonials Section  -->
+    <section id="testimonials" class="p-5 d-flex justify-content-evenly flex-lg-row flex-md-column-reverse mt-5" style="background:rgba(138, 71, 246, .1);">
+    
+        <div class="d-flex flex-column justify-content-between align-items-baseline p-lg-5 py-md-4 gap-md-3 col-lg-5">
+            <p class="fs-5">Testimonials</p>
+            <h2 class="fw-bolder" style="font-size:48px;">What Our Clients Say</h2>
+            <p>This photography website is a true gem for anyone who appreciates artistry and storytelling through the lens. The images
+            are awe-inspiring, and the website provides an engaging and immersive experience. With a few minor enhancements in
+            user-friendliness and performance, it could become an even more exceptional platform for showcasing photography talent.</p>
+            <div class="d-flex align-items-center gap-4">
+                <div class="d-flex align-items-center gap-2 py-2 ps-2 pe-3 rounded-pill " style="background:rgba(138, 71, 246, .2);">
+                    <img src="image/Ellipse 1.png">
+                    <p class="mb-1 fs-4">Amane Indahnya</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-circle-arrow-right fs-2"></i>
+                    <i class="fa-solid fa-circle-arrow-left fs-2 ms-3"></i>
+                </div>
+            </div>
+        </div>
+
+        <img src="image/Rectangle 24.png">
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Instagram Feed Section  -->
+    <section id="instagram_feed" class="p-lg-5 mt-lg-5 pb-md-5 d-flex flex-column align-items-center">
+        <div class="w-75 mt-5">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="fw-bolder" style="font-size:48px;">Instagram Feed</h2>
+                <button class="buttons">Join Now</button>
+            </div>
+            
+            <div class="d-flex justify-content-evenly gap-3">
+                <div class="col-6 d-flex flex-column gap-3">
+                    <img src="image/Rectangle 40.png">
+                    <img src="image/Rectangle 35.png">
+                </div>
+                <div class="col-3 d-flex flex-column gap-3">
+                    <img src="image/Rectangle 36.png">
+                    <img src="image/Rectangle 38.png">
+                </div>
+                <div class="col-3 d-flex flex-column gap-3">
+                    <img src="image/Rectangle 37.png">
+                    <img src="image/Rectangle 39.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- Question Section  -->
+    <section id="question" class="p-lg-5 px-md-5 mt-5 mb-md-5">
+        <h2 class="fw-bolder ps-5" style="font-size:48px;">Have A Question?</h2>
+
+        <div class="d-flex gap-4 justify-content-around align-items-end flex-lg-row flex-md-column">
+            <div class="col-lg-6 d-flex flex-column justify-content-between">
+                <p class="py-3 fs-5">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <form class="d-flex flex-column justify-content-between">
+                    <label class="mt-3 py-1">Name</label>
+                    <input type="text" class="p-2 rounded-2 border-1">
+                    <label class="mt-3 py-1">Email</label>
+                    <input type="email" class="p-2 rounded-2 border-1">
+                    <label class="mt-3 py-1">Message</label>
+                    <textarea class="p-2 rounded-2 border-1" rows="10"></textarea>
+                </form>
+            </div>
+            <div class="col-lg-4 col-md-12 px-3 px-md-5 py-5 rounded-2"style="background:rgba(138, 71, 246, .2);">
+                <h4 class="fs-1">Get In Touch!</h4>
+                <p class="fs-5 my-4">We love to hear from you.Our friendly Team is always here to chat.</p>
+                <div>
+                    <div class="d-flex gap-3 align-items-center">
+                        <i class="fa-solid fa-location-dot p-3 fs-5 rounded-circle" style="background:#8A47F6;"></i>
+                        <div>
+                            <b class="fs-5">Location:</b>
+                            <p>199 Nueces ST,Austin,TX 78701</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3 align-items-center my-4">
+                        <i class="fa-solid fa-phone-volume p-3 fs-5 rounded-circle" style="background:#8A47F6;"></i>
+                        <div>
+                            <b class="fs-5">Phone::</b>
+                            <p>+1(456)666-4077</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3 align-items-center">
+                        <i class="fa-regular fa-envelope p-3 fs-5 rounded-circle" style="background:#8A47F6;"></i>
+                        <div>
+                            <b class="fs-5">Email::</b>
+                            <p>support@free.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- Footer Section -->
+     <footer class="bg-black p-3 px-5 d-flex align-items-center justify-content-between">
+        <img src="image/logoKiekeFotografie-e1460817748238 2.png">
+
+        <div class="d-flex gap-3">
+            <a href="#" class="fs-6 text-white">Privacy Policy</a>
+            <a href="#" class="fs-6 text-white">Terms & Conditions</a>
+        </div>
+
+        <div class="fs-5">
+            <i class="fa-brands fa-facebook bg-white p-2 rounded-circle ms-3"></i>
+            <i class="fa-brands fa-instagram bg-white p-2 rounded-circle ms-3"></i>
+            <i class="fa-brands fa-twitter bg-white p-2 rounded-circle ms-3"></i>
+        </div>
+     </footer>
+
+
+
+
+    
+
+    <!-- Bootstrap CDN Link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
